@@ -529,7 +529,7 @@
         </section>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="icon-modal-close">
@@ -598,8 +598,20 @@
               class="modal-text-area"
               placeholder="Введите текст"
             ></textarea>
-
-            <button type="submit" class="modal-btn">Отправить</button>
+          </div>
+          <div class="modal-field">
+              <input type="checkbox" name="pivacy" id="privacy"  class="input-check visually-hidden" />
+              <label for="privacy" class="check-text">
+                  <span>
+                      <svg class="check-icon" width="11" height="8">
+                          <use href="./images/icons.svg#icon-modal-check">
+                          </use>
+                        </svg>
+                    </span>Соглашаюсь с рассылкой и принимаю&nbsp; <a href=""> Условия договора</a>
+              </label>
+          </div>
+          <button type="submit" class="modal-btn">Отправить
+          </button>
           </div>
         </form>
       </div>
@@ -607,5 +619,3 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
-
-"backdrop is-hidden"
