@@ -494,9 +494,10 @@ header {
 }
 .footer-all {
   display: flex;
+  justify-content: space-between;
 }
 .footer-info {
-  width: 300px;
+  width: 230px;
 }
 .footer-logo {
   display: inline-block;
@@ -536,7 +537,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   color: var(--local-color);
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 .join {
   margin-bottom: 20px;
@@ -576,6 +577,7 @@ header {
 }
 .mailing-list {
   display: flex;
+  width: 570px;
   flex-wrap: wrap;
   height: 86px;
   font-weight: 700;
@@ -583,7 +585,7 @@ header {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--local-color);
-  margin-left: 154px;
+  /* margin-left: 154px; */
 }
 .mailing-list-title {
   width: 225px;
@@ -923,7 +925,7 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   color: var(--local-color);
   background-color: var(--second-header-color);
   border-radius: 4px;
