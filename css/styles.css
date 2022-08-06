@@ -917,7 +917,8 @@ header {
   justify-content: center;
   width: 16px;
   height: 15px;
-  border: 1px solid var(--main-title-color);
+  border: 2px solid var(--main-title-color);
+  border-radius: 2px;
   margin-right: 8px;
 }
 .check-icon {
@@ -930,6 +931,13 @@ header {
 .input-check:checked + .check-text .check-icon {
   fill: var(--local-color);
 }
+/* .check-text span:checked + .input-check {
+  background-color: var(--second-header-color);
+  border: none;
+}
+.check-text:checked + .input-check .check-icon {
+  fill: var(--local-color);
+} */
 
 .modal-btn {
   display: block;
