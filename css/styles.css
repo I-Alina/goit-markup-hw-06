@@ -499,10 +499,12 @@ header {
 }
 .footer-all {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: baseline;
 }
 .footer-info {
   width: 230px;
+  margin-right: 70px;
 }
 .footer-logo {
   display: inline-block;
@@ -541,8 +543,8 @@ header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-right: 100px;
   color: var(--local-color);
-  /* margin-left: 70px; */
 }
 .join {
   margin-bottom: 20px;
@@ -593,8 +595,6 @@ header {
   /* margin-left: 154px; */
 }
 .mailing-list-title {
-  width: 225px;
-  height: 16px;
   margin-bottom: 20px;
 }
 .mailing-btn {
