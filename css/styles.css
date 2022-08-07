@@ -911,7 +911,7 @@ header {
   color: var(--second-header-color);
   flex-shrink: 0;
 }
-.check-text span {
+.check-check {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -922,23 +922,16 @@ header {
   margin-right: 8px;
 }
 .check-icon {
+  display: inline-block;
   fill: transparent;
 }
-.input-check:checked + .check-text span {
+.input-check:checked + .check-check {
   background-color: var(--second-header-color);
   border: none;
 }
-.input-check:checked + .check-text .check-icon {
+.input-check:checked + .check-check .check-icon {
   fill: var(--local-color);
 }
-/* .check-text span:checked + .input-check {
-  background-color: var(--second-header-color);
-  border: none;
-}
-.check-text:checked + .input-check .check-icon {
-  fill: var(--local-color);
-} */
-
 .modal-btn {
   display: block;
   width: 200px;
